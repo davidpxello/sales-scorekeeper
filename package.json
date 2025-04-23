@@ -13,5 +13,10 @@
     "vite": "^4.0.0",
     "@vitejs/plugin-react": "^4.0.0",
     "lucide-react": "^0.264.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
   }
 }
