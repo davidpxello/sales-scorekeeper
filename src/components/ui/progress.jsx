@@ -1,1 +1,1 @@
-export function Progress({ value, className }) { return <div className={`w-full bg-gray-200 rounded ${className}`}><div className='bg-blue-500 h-full rounded' style={{ width: `${value}%` }}></div></div>; }
+export function Progress({ value, className = '' }) { return <div className={`w-full bg-gray-200 ${className}`}><div className='bg-indigo-500 h-4 rounded' style={{ width: `${value}%` }} /></div>; }

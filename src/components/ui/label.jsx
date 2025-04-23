@@ -1,1 +1,1 @@
-export function Label({ children, htmlFor }) { return <label htmlFor={htmlFor} className='block text-sm font-medium mb-1'>{children}</label>; }
+export function Label({ children, htmlFor, className = '' }) { return <label htmlFor={htmlFor} className={`block mb-1 ${className}`}>{children}</label>; }
